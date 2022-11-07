@@ -11,18 +11,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-#data cleansing
 
-df = pd.read_csv('./data/IT Salary Survey EU 2018.csv')
+df = pd.read_csv('./data/IT Salary Survey EU  2020.csv')
 df
 
 #find max value with pandas
 
-print("Salary two years ago is: ",df['Salary two years ago'].idxmax())
-print(df['Salary two years ago'].nlargest())
 
-# Using DataFrame.loc[] property.
-df2=df.loc[df['Salary two years ago'].idxmax()]
-print(df2)
+#series tests
 
-print(df.loc[df['Current Salary'].idxmax()])
+
+ser = df["Annual bonus+stocks one year ago. Only answer if staying in same country"].astype(float)
+print(ser.max())
+

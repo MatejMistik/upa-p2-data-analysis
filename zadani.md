@@ -14,9 +14,11 @@ Výsledné řešení (jeden zip archiv) odevzdá pouze vedoucí týmu prostředn
 Zdrojové kódy pro Vámi provedenou explorativní analýzu a zdrojové kódy pro úpravu datové sady do požadované podoby. Preferovaným programovacím jazykem je Python, ale můžete využít i Javu nebo jazyk R. Řešení je možné odevzdat i formou Jupyter notebooku.
 Dokumentaci obsahující výsledky explorativní analýzy a popis provedených úprav datové sady ve formátu pdf. K explorativní analýze bude dokumentace obsahovat odpovídající podkapitolu ke každému požadovanému bodu uvedenému níže. Pro prezentaci zjištěných informací využijte vhodné tabulky a grafy. Dále pro každou požadovanou úpravu datové sady uveďte, jakou metodu (jaké metody) jste použili, a zdůvodněte, proč jste vybrali právě tuto metodu (tyto metody).
 Obě výsledné varianty upravené datové sady ve formátu csv. Pro zmenšení velikosti odevzdávaného archivu je možné odevzdat pouze prvních 50 řádků těchto souborů.
+
 Pokyny k řešení:
 Z dostupných datových sad si zvolte jednu datovou sadu, kterou se budete dále zabývat. Stáhněte si zvolenou datovou sadu z uvedeného zdroje a prostudujte si dostupné informace k této datové sadě.
 Proveďte explorativní analýzu zvolené datové sady. Pro každý následující bod implementujte odpovídající sekci ve zdrojovém kódu a zjištěné výsledky popište v dokumentaci:
+
 prozkoumejte jednotlivé atributy datové sady, jejich typ a hodnoty, kterých nabývají (počet hodnot, nejčastější hodnoty, rozsah hodnot atd.)
 prozkoumejte rozložení hodnot jednotlivých atributů pomocí vhodných grafů, zaměřte se i na to, jak hodnota jednoho či dvou atributů ovlivní rozložení hodnot jiného atributu. Do dokumentace vložte alespoň 5 různých grafů, zobrazujících zjištěná rozložení hodnot. Použijte různé typy grafů (např. bodový graf, histogram, krabicový nebo houslový graf, graf složený z více podgrafů apod.).
 zjistěte, zda zvolená datová sada obsahuje nějaké odlehlé hodnoty.
