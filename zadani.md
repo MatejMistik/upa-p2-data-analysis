@@ -18,17 +18,39 @@ Obě výsledné varianty upravené datové sady ve formátu csv. Pro zmenšení 
 Pokyny k řešení:
 Z dostupných datových sad si zvolte jednu datovou sadu, kterou se budete dále zabývat. Stáhněte si zvolenou datovou sadu z uvedeného zdroje a prostudujte si dostupné informace k této datové sadě.
 
+TODO:
+- [X] 1. Explorativní analýza
+- [ ] 2. Úprava dátové sady
+- [ ] 3. Dokumentace
 
-Proveďte explorativní analýzu zvolené datové sady. Pro každý následující bod implementujte odpovídající sekci ve zdrojovém kódu a zjištěné výsledky popište v dokumentaci:
-
-prozkoumejte jednotlivé atributy datové sady, jejich typ a hodnoty, kterých nabývají (počet hodnot, nejčastější hodnoty, rozsah hodnot atd.)
-prozkoumejte rozložení hodnot jednotlivých atributů pomocí vhodných grafů, zaměřte se i na to, jak hodnota jednoho či dvou atributů ovlivní rozložení hodnot jiného atributu. Do dokumentace vložte alespoň 5 různých grafů, zobrazujících zjištěná rozložení hodnot. Použijte různé typy grafů (např. bodový graf, histogram, krabicový nebo houslový graf, graf složený z více podgrafů apod.).
-zjistěte, zda zvolená datová sada obsahuje nějaké odlehlé hodnoty.
-proveďte podrobnou analýzu chybějící hodnot (celkový počet chybějících hodnot, počet objektů s více chybějícími hodnotami atd.).
-proveďte korelační analýzu numerických atributů (k analýze využijte i grafy a korelační koeficienty).
 Připravte 2 varianty datové sady vhodné pro dolovací algoritmy. Můžete uvažovat dolovací úlohu uvedenou u datové sady nebo navrhnout vlastní dolovací úlohy. V případě vlastní dolovací úlohy ji specifikujte v dokumentaci. V rámci přípravy datové sady proveďte následující kroky:
-Odstraňte z datové sady atributy, které jsou pro danou dolovací úlohu irelevantní.
-Vypořádejte se s chybějícími hodnotami. Pro odstranění těchto hodnot využijte alespoň dvě různé metody pro odstranění chybějících hodnot.
-Vypořádejte se s odlehlými hodnotami, jsou-li v datové sadě přítomny.
+
 Pro jednu variantu datové sady proveďte diskretizaci numerických atributů tak, aby výsledná datová sada byla vhodná pro algoritmy, které vyžadují na vstupu kategorické atributy.
 Pro druhou variantu datové sady proveďte vhodnou transformaci kategorických atributů na numerické atributy. Dále pak proveďte normalizaci numerických atributů, které má smysl normalizovat. Výsledná datová sada by měla být vhodná pro metody vyžadující numerické vstupy.
+
+DOING:
+
+časť 1 - Exploratívna analýza
+
+prozkoumejte rozložení hodnot jednotlivých atributů pomocí vhodných grafů, zaměřte se i na to, jak hodnota jednoho či dvou atributů ovlivní rozložení hodnot jiného atributu. Do dokumentace vložte alespoň 5 různých grafů, zobrazujících zjištěná rozložení hodnot. Použijte různé typy grafů (např. bodový graf, histogram, krabicový nebo houslový graf, graf složený z více podgrafů apod.).
+??? otázka úpravy dátové sady ???
+
+časť 2 - Úprava dátové sady	
+
+Vypořádejte se s odlehlými hodnotami, jsou-li v datové sadě přítomny.
+Odstraňte z datové sady atributy, které jsou pro danou dolovací úlohu irelevantní.
+
+
+
+Done:
+
+časť 1 - Exploratívna analýza
+
+proveďte korelační analýzu numerických atributů (k analýze využijte i grafy a korelační koeficienty).
+prozkoumejte jednotlivé atributy datové sady, jejich typ a hodnoty, kterých nabývají (počet hodnot, nejčastější hodnoty, rozsah hodnot atd.)
+zjistěte, zda zvolená datová sada obsahuje nějaké odlehlé hodnoty.
+proveďte podrobnou analýzu chybějící hodnot (celkový počet chybějících hodnot, počet objektů s více chybějícími hodnotami atd.).
+
+časť 2 - Úprava dátové sady
+
+Vypořádejte se s chybějícími hodnotami. Pro odstranění těchto hodnot využijte alespoň dvě různé metody pro odstranění chybějících hodnot.
