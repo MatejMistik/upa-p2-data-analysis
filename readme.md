@@ -33,8 +33,8 @@ prozkoumejte rozložení hodnot jednotlivých atributů pomocí vhodných grafů
 
 časť 2 - Úprava dátové sady	
 
-Vypořádejte se s odlehlými hodnotami, jsou-li v datové sadě přítomny.
-Odstraňte z datové sady atributy, které jsou pro danou dolovací úlohu irelevantní.
+
+
 
 Připravte 2 varianty datové sady vhodné pro dolovací algoritmy. Můžete uvažovat dolovací úlohu uvedenou u datové sady nebo navrhnout vlastní dolovací úlohy. V případě vlastní dolovací úlohy ji specifikujte v dokumentaci. V rámci přípravy datové sady proveďte následující kroky:
 
@@ -53,4 +53,9 @@ proveďte podrobnou analýzu chybějící hodnot (celkový počet chybějících
 
 časť 2 - Úprava dátové sady
 
-Vypořádejte se s chybějícími hodnotami. Pro odstranění těchto hodnot využijte alespoň dvě různé metody pro odstranění chybějících hodnot.
+Vypořádejte se s odlehlými hodnotami, jsou-li v datové sadě přítomny.
+Vypořádejte se s chybějícími hodnotami. Pro odstranění těchto hodnot využijte alespoň dvě různé metody pro odstranění chybějících hodnot. - Určiť korelácie medzi atribútmi a na základe toho vybrať ktoré hodnoty budú použité na odstránenie.
+
+časť 3 - Dokumentace
+
+Určiť korelácie medzi atribútmi a na základe toho vybrať ktoré hodnoty budú použité pri dolovaní vzorov. V dokumentácii je potrebné uviesť korelačné koeficienty a grafy korelácií.
