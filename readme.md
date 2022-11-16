@@ -41,6 +41,7 @@ Připravte 2 varianty datové sady vhodné pro dolovací algoritmy. Můžete uva
 TODO je potreba v korelácii zmenšiť datovú sadu pre salary, pretože to grafy nezvládajú vypísať.. takže nejaký filter na hodnoty salary Náhodné rozptýlenie alebo Shluková analýza
 
 Pro jednu variantu datové sady proveďte diskretizaci numerických atributů tak, aby výsledná datová sada byla vhodná pro algoritmy, které vyžadují na vstupu kategorické atributy.
+
 Pro druhou variantu datové sady proveďte vhodnou transformaci kategorických atributů na numerické atributy. Dále pak proveďte normalizaci numerických atributů, které má smysl normalizovat. Výsledná datová sada by měla být vhodná pro metody vyžadující numerické vstupy.
 
 
