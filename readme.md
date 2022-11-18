@@ -28,17 +28,11 @@ DOING:
 
 časť 1 - Exploratívna analýza
 
-prozkoumejte rozložení hodnot jednotlivých atributů pomocí vhodných grafů, zaměřte se i na to, jak hodnota jednoho či dvou atributů ovlivní rozložení hodnot jiného atributu. Do dokumentace vložte alespoň 5 různých grafů, zobrazujících zjištěná rozložení hodnot. Použijte různé typy grafů (např. bodový graf, histogram, krabicový nebo houslový graf, graf složený z více podgrafů apod.).
-??? otázka úpravy dátové sady ???
-
 časť 2 - Úprava dátové sady	
-
-
 
 
 Připravte 2 varianty datové sady vhodné pro dolovací algoritmy. Můžete uvažovat dolovací úlohu uvedenou u datové sady nebo navrhnout vlastní dolovací úlohy. V případě vlastní dolovací úlohy ji specifikujte v dokumentaci. V rámci přípravy datové sady proveďte následující kroky:
 
-TODO je potreba v korelácii zmenšiť datovú sadu pre salary, pretože to grafy nezvládajú vypísať.. takže nejaký filter na hodnoty salary Náhodné rozptýlenie alebo Shluková analýza
 
 Pro jednu variantu datové sady proveďte diskretizaci numerických atributů tak, aby výsledná datová sada byla vhodná pro algoritmy, které vyžadují na vstupu kategorické atributy.
 
@@ -50,9 +44,13 @@ Done:
 časť 1 - Exploratívna analýza
 
 proveďte korelační analýzu numerických atributů (k analýze využijte i grafy a korelační koeficienty).
+prozkoumejte rozložení hodnot jednotlivých atributů pomocí vhodných grafů, zaměřte se i na to, jak hodnota jednoho či dvou atributů ovlivní rozložení hodnot jiného atributu. Do dokumentace vložte alespoň 5 různých grafů, zobrazujících zjištěná rozložení hodnot. Použijte různé typy grafů (např. bodový graf, histogram, krabicový nebo houslový graf, graf složený z více podgrafů apod.).
+??? otázka úpravy dátové sady ???
 prozkoumejte jednotlivé atributy datové sady, jejich typ a hodnoty, kterých nabývají (počet hodnot, nejčastější hodnoty, rozsah hodnot atd.)
 zjistěte, zda zvolená datová sada obsahuje nějaké odlehlé hodnoty.
 proveďte podrobnou analýzu chybějící hodnot (celkový počet chybějících hodnot, počet objektů s více chybějícími hodnotami atd.).
+
+potreba v korelácii zmenšiť datovú sadu pre salary, pretože to grafy nezvládajú vypísať.. takže nejaký filter na hodnoty salary Náhodné rozptýlenie alebo Shluková analýza
 
 časť 2 - Úprava dátové sady
 
