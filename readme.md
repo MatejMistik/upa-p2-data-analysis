@@ -20,7 +20,7 @@ Z dostupných datových sad si zvolte jednu datovou sadu, kterou se budete dále
 
 TODO:
 - [X] 1. Explorativní analýza
-- [ ] 2. Úprava dátové sady
+- [X] 2. Úprava dátové sady
 - [ ] 3. Dokumentace
 - [ ] 4. Odevzdání
 
@@ -30,14 +30,9 @@ DOING:
 
 časť 2 - Úprava dátové sady	
 
+časť 3 - Dokumentace
 
-Připravte 2 varianty datové sady vhodné pro dolovací algoritmy. Můžete uvažovat dolovací úlohu uvedenou u datové sady nebo navrhnout vlastní dolovací úlohy. V případě vlastní dolovací úlohy ji specifikujte v dokumentaci. V rámci přípravy datové sady proveďte následující kroky:
-
-
-Pro jednu variantu datové sady proveďte diskretizaci numerických atributů tak, aby výsledná datová sada byla vhodná pro algoritmy, které vyžadují na vstupu kategorické atributy.
-
-Pro druhou variantu datové sady proveďte vhodnou transformaci kategorických atributů na numerické atributy. Dále pak proveďte normalizaci numerických atributů, které má smysl normalizovat. Výsledná datová sada by měla být vhodná pro metody vyžadující numerické vstupy.
-
+Určiť korelácie medzi atribútmi a na základe toho vybrať ktoré hodnoty budú použité pri dolovaní vzorov. V dokumentácii je potrebné uviesť korelačné koeficienty a grafy korelácií.
 
 Done:
 
@@ -57,6 +52,10 @@ potreba v korelácii zmenšiť datovú sadu pre salary, pretože to grafy nezvl�
 Vypořádejte se s odlehlými hodnotami, jsou-li v datové sadě přítomny.
 Vypořádejte se s chybějícími hodnotami. Pro odstranění těchto hodnot využijte alespoň dvě různé metody pro odstranění chybějících hodnot. - Určiť korelácie medzi atribútmi a na základe toho vybrať ktoré hodnoty budú použité na odstránenie.
 
-časť 3 - Dokumentace
+Připravte 2 varianty datové sady vhodné pro dolovací algoritmy. Můžete uvažovat dolovací úlohu uvedenou u datové sady nebo navrhnout vlastní dolovací úlohy. V případě vlastní dolovací úlohy ji specifikujte v dokumentaci. V rámci přípravy datové sady proveďte následující kroky:
 
-Určiť korelácie medzi atribútmi a na základe toho vybrať ktoré hodnoty budú použité pri dolovaní vzorov. V dokumentácii je potrebné uviesť korelačné koeficienty a grafy korelácií.
+
+Pro jednu variantu datové sady proveďte diskretizaci numerických atributů tak, aby výsledná datová sada byla vhodná pro algoritmy, které vyžadují na vstupu kategorické atributy.
+
+Pro druhou variantu datové sady proveďte vhodnou transformaci kategorických atributů na numerické atributy. Dále pak proveďte normalizaci numerických atributů, které má smysl normalizovat. Výsledná datová sada by měla být vhodná pro metody vyžadující numerické vstupy.
+
