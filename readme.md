@@ -1,3 +1,5 @@
+# Riešenie je v dataPreparation.Ipynb a Exploration.ipynb
+
 # Projekt - zadání 2. části
 Cílem této části projektu je vyzkoušet si:
 provedení explorativní analýzy na zvolené datové sadě.
